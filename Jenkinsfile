@@ -22,7 +22,7 @@ node ('ubuntu'){
          }
 
     stage ('DAST') {
-        build 'SECURITY-DSAT-OWASP_ZAP'
+        build 'SECURITY-DAST-OWASP_ZAP'
     }
     
   
