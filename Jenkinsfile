@@ -20,6 +20,10 @@ node ('ubuntu'){
             app.push("latest")
         			}
          }
+
+    stage ('DAST') {
+        build 'SECURITY-DSAT-OWASP_ZAP'
+    }
     
   
     
